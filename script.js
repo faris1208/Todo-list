@@ -64,7 +64,7 @@ addButton.addEventListener('click', () =>{
         // textInputField1.value = todoText.innerText;
         const parent = editButton.parentElement;
         parent.parentElement.removeChild(parent);
-        // saveData();
+        saveData();
     })
 
     editButton.addEventListener('click', () => {
@@ -96,13 +96,13 @@ addButton.addEventListener('click', () =>{
 
 })
 
-// function saveData(){
-//     localStorage.setItem("data", todosContainer.innerHTML);
-//     localStorage.set
-// }
+function saveData(){
+    localStorage.setItem("data", todosContainer.innerHTML);
+    localStorage.set
+}
 
-// function showTask(){
-//     todosContainer.innerHTML = localStorage.getItem("data");
-// };
+function showTask(){
+    todosContainer.innerHTML = localStorage.getItem("data");
+};
 
-// showTask();
+showTask();
