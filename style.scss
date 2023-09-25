@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    //    padding: 15px;
+}
+
+.form-container{
+    width: 100%;
+    max-width: 550px;
+    background-color: #fff;
+    border-radius: 15px;
+    // height: 600px;
+    // padding: 15px;
+
+}
+
+.todo{
+    width: 100%;
+    max-width: 550px;
+    background-color: orange;
+    height: 50px;
+    text-align: center;
+     border-radius: 15px 15px 0px 0px;
+    // margin: 10px 0px;
+
+    h2{
+        // text-transform: uppercase;
+        // letter-spacing: 2.5px;
+        // margin-bottom: 15px;
+        font-size: 30px;
+        padding-top: 10px;
+    
+        .orange{
+            color: green;
+        }
+    }
+}
+
+h2{
+    // text-transform: uppercase;
+    // letter-spacing: 2.5px;
+    margin-bottom: 15px;
+
+    .orange{
+        color: rgb(248, 167, 17);
+    }
+}
+
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 30px 15px 10px;
+    // border: 1px solid gray;
+
+    #new-todo{
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 10px;
+
+
+    }
+}
+
+#text-input-field{
+    // padding: 20px 0px;
+    width: 100%;
+    height: 40px;
+    // padding: 10px;
+    font-size: 22px;
+    // font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    // letter-spacing: 2.5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    // color: green;
+}
+
+#text-input-field1{
+    width: 100%;
+    height: 40px;
+    // padding: 10px;
+    font-size: 22px;
+    // font-weight: bold;
+    border-radius: 10px;
+    // letter-spacing: 2.5px;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    color: gray;
+    // color: green;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: green;
+}
+
+#add-button{
+    width: 80px;
+    height: 35px;
+    font-size: 22px;
+    border-radius: 8px;
+    // padding: 7px 9px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+.todos-container{
+    width: 100%;
+    // overflow-y:scroll;
+    padding: 0px 10px;
+    // position: relative;
+}
+.todos-item-container{
+    display: flex;
+    // margin-bottom: 5px;
+}
+
+// #todo-text{
+//     width: 100%;
+//     font-size: 20px;
+//     letter-spacing: 2.5px;
+//     user-select: none;
+//     // display: flex;
+// }
+
+.line-through{
+    text-decoration: line-through;
+    color: red;
+}
+
+
+#edit-button,
+#delete-button{
+    // margin: 0px 29px;
+    // position: absolute;
+    // right: 0;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    // display: flex;
+    // flex-direction: column;
+}
+
+h5{
+    font-size: 15px;
+    color: gray;
+}
+
+p{
+    font-size: 22px;
+    color: black;
+}
+
+
+
+li{
+    width: 100%;
+    // max-width: 500px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 10px;
+    padding: 0px 10px;
+    // line-height: 12px;
+    position: relative;
+
+    button
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    margin: 0px 0px;
+    background: none;
+    font-size: 22px;
+    color: red;
+    margin: 0px 0px;
+    cursor: pointer;
+
+}
+
+h3{
+    position: absolute;
+    top: 0;
+    right: 70px;
+    border: none;
+    // margin: 0px 5px;
+    background: none;
+    font-size: 22px;
+    color: orange;
+    // margin: 0px 0px;
+    cursor: pointer;
+}
+
+}
+
+// .span
+// {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     border: none;
+//     margin: 0px 5px;
+//     background: none;
+//     font-size: 22px;
+
+// }
+
+
+
+
+
+// #btn1{
+//     width: 75px;
+//     height: 35px;
+//     font-size: 22px;
+//     border-radius: 8px;
+//     // border: 1px solid gray;
+//     border: none;
+//     outline: none;
+//     // margin: 0px 0px 0px 10px;
+//     background-color: orange;
+//     color: green;
+//     cursor: pointer;
+// }
+

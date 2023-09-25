@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 550px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.todo {
+  width: 100%;
+  max-width: 550px;
+  background-color: orange;
+  height: 50px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.todo h2 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.todo h2 .orange {
+  color: green;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+h2 .orange {
+  color: rgb(248, 167, 17);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 30px 15px 10px;
+}
+.input-group #new-todo {
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#text-input-field {
+  width: 100%;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+
+#text-input-field1 {
+  width: 100%;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  outline: none;
+  border: 1px solid gray;
+  padding-left: 10px;
+  color: gray;
+}
+
+::-moz-placeholder {
+  font-size: 20px;
+  color: green;
+}
+
+::placeholder {
+  font-size: 20px;
+  color: green;
+}
+
+#add-button {
+  width: 80px;
+  height: 35px;
+  font-size: 22px;
+  border-radius: 8px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todos-container {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.todos-item-container {
+  display: flex;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: red;
+}
+
+#edit-button,
+#delete-button {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+h5 {
+  font-size: 15px;
+  color: gray;
+}
+
+p {
+  font-size: 22px;
+  color: black;
+}
+
+li {
+  width: 100%;
+  border: 1px solid orange;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 10px;
+  padding: 0px 10px;
+  position: relative;
+}
+li button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  margin: 0px 0px;
+  background: none;
+  font-size: 22px;
+  color: red;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+li h3 {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  border: none;
+  background: none;
+  font-size: 22px;
+  color: orange;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
